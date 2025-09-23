@@ -5,19 +5,59 @@
     <title>My Personal Website</title>
 </head>
 <body>
-    <h1> Welcome to my personal website</h1>
-    <p> I am Albert Rabb and this website is my portfolio for my football goals and some projects ive done</p>
+    <header>
+        <h1> Welcome to my personal website</h1>
+        <p> I am Albert Rabb and this website is my portfolio for my football goals and some projects ive done</p>
 
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About me</li>
-        <li><a href="projects.html">projects</a></li>
+       <nav>
+           <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About me</li>
+              <li><a href="projects.html">projects</a></li>
 
-    </ul>
+           </ul>
+       </nav>
+    </header>
 
-    <h2>Favorite Website</h2>
-    <p> This is a link to the site for my favorite football team</p>
-    <p><a href="https://www.seahawks.com/schedule/" target="_blank">Team schedule</a></p>
+    <main>
+        <article>
+            <section>
+                <h2>Autoplay Video</h2>
+                <video src="media/highlight.mp4" autoplay muted loop width="320"></video>
+            </section>
+
+            <section>
+                <h2>Football Stats</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Game</th>
+                            <th>Rushing Yards</th>
+                            <th>Touchdowns</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Game 1</td>
+                            <td>120</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Favorite Website</h2>
+                <p> This is a link to the site for my favorite football team</p>
+                <p><a href="https://www.seahawks.com/schedule/" target="_blank">Team schedule</a></p>
+            </section>
+        </article>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2025 Albert Rabb</p>
+    </footer>
+    
 </body>
 </html>
